@@ -1,0 +1,138 @@
+.footer {
+    background-color:#2F4F4F;
+    color: #ffffff;
+    padding: 20px ;
+  }
+  h3{
+    color: #ffffff;
+  }
+  h3:hover{
+    color: #21a1f1;
+  }
+  .footer-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  .murali-f{
+    color: white;
+  }
+  .footer-col {
+    margin-bottom: 20px;
+  }
+  
+  .footer-col h2, .footer-col h3 {
+    margin-bottom: 10px;
+  }
+  .footer-col h2:hover{
+color: #21a1f1;
+  }
+  .footer-col p {
+    font-size: 14px;
+    color: white;
+    width: 420px;
+  }
+  .footer-col p:hover{
+color: #DC143C;
+  }
+  .footer-link {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    margin-bottom: 5px;
+  }
+  
+  .footer-link:hover {
+    text-decoration: underline;
+    color: #DC143C;
+  }
+  
+  .footer-input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .footer-btn {
+    background-color: #61dafb;
+    border: none;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%
+  }
+  
+  .footer-btn:hover {
+    background-color: #21a1f1;
+  }
+  
+  .footer-icons {
+    display: flex;
+    gap: 40px;
+    margin-top: 10px;
+  }
+  
+  .footer-icon {
+    font-size: 24px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .footer-icon:hover {
+    color: #61dafb;
+  }
+  
+
+  @media (max-width: 768px) {
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-col {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-col p {
+        width: 100%;
+    }
+
+    .footer-icons {
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-row {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .footer-col {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .footer-col h2, .footer-col h3 {
+        font-size: 1.2rem;
+    }
+
+    .footer-col p {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .footer-icons {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .footer-icon {
+        font-size: 20px;
+    }
+}

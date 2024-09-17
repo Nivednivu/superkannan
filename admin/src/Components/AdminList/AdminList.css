@@ -1,0 +1,109 @@
+/* AdminList.css */
+
+/* Base styling */
+.grievances-table-container {
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1000px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.grievances-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.grievances-table th, .grievances-table td {
+  border: 1px solid #ddd;
+  padding: 12px 15px;
+  text-align: center;
+  color: #333;
+}
+
+.grievances-table th {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+}
+
+.grievances-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.grievances-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.grievances-table select {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+.grievances-table td .MdDelete {
+  cursor: pointer;
+  color: #e74c3c;
+  font-size: 20px;
+}
+
+.grievances-table td .MdDelete:hover {
+  color: #c0392b;
+}
+
+/* Mobile responsive (screens under 480px) */
+@media (max-width: 480px) {
+  .grievances-table-container {
+    padding: 10px;
+    margin: 0 10px;
+  }
+
+  .search-input {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .grievances-table th, .grievances-table td {
+    font-size: 12px;
+    padding: 6px;
+  }
+
+  .grievances-table {
+    font-size: 12px;
+    word-wrap: break-word;
+  }
+
+  .grievances-table td, .grievances-table th {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .grievances-table select {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .grievances-table td .MdDelete {
+    font-size: 18px;
+  }
+}
